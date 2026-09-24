@@ -1,0 +1,3 @@
+Template JSON files live here, numbered: `01-name.json`, `02-name.json`, …
+
+The number is permanent and is how the CEO refers to a design.
