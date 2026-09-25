@@ -10,10 +10,19 @@ on its own machine where the credentials live.
 
 ## How a night works
 
-1. **Find what is working.** Ask **Agent Reach** what beauty professionals are
-   posting right now, and read the structure of the good ones: how many shots,
-   how long each is held, where the cuts land, where words appear. Take the
-   STRUCTURE only. Never anybody's artwork, footage, wording or name.
+1. **Find what is working.** In this order, and do not stop to ask:
+
+   * **`trends/` in this repo**, if it holds anything from the last week. That
+     is where Agent Reach's findings are dropped, from the laptop where it is
+     installed. Read the newest file and work from it.
+   * **Otherwise research the web yourself.** Agent Reach is a command line
+     tool on the CEO's own machine and is NOT reachable from a cloud sandbox,
+     so its absence is normal and is never a reason to wait. Search for what
+     beauty professionals are posting now and read the good ones.
+
+   Either way, take the **STRUCTURE** only: how many shots, how long each is
+   held, where the cuts land, where words appear. Never anybody's artwork,
+   footage, wording or name.
 2. **Design the templates**, as many as the CEO asked for.
 3. **Number every one**, starting from the next free number in `templates/`.
    The number is the file's own prefix: `templates/07-cream-curve.json` is
@@ -44,6 +53,18 @@ different, it is not different.
 
 Aim at reels: motion, transitions, pacing. The premium feel comes from
 **structure and timing**, not from effects.
+
+---
+
+## Where the trends come from
+
+`trends/` is filled from the CEO's laptop, where **Agent Reach** is installed:
+one markdown file per run, named by date, holding what is trending and the shot
+structure of anything worth copying the shape of.
+
+It may be empty, and often will be. That is not a problem and not a reason to
+stop: research the web instead and say in your summary which of the two you
+used, so the CEO knows how well grounded the batch is.
 
 ---
 
