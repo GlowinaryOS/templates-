@@ -15,10 +15,10 @@ on its own machine where the credentials live.
    * **`trends/` in this repo**, if it holds anything from the last week. That
      is where Agent Reach's findings are dropped, from the laptop where it is
      installed. Read the newest file and work from it.
-   * **Otherwise research the web yourself.** Agent Reach is a command line
-     tool on the CEO's own machine and is NOT reachable from a cloud sandbox,
-     so its absence is normal and is never a reason to wait. Search for what
-     beauty professionals are posting now and read the good ones.
+   * **Otherwise install Agent Reach where you are and use it** — see the
+     section below. It is free and needs no keys.
+   * **Only if that genuinely fails**, research the web yourself. Say which
+     happened, in one line, and never stop to ask.
 
    Either way, take the **STRUCTURE** only: how many shots, how long each is
    held, where the cuts land, where words appear. Never anybody's artwork,
@@ -53,6 +53,39 @@ different, it is not different.
 
 Aim at reels: motion, transitions, pacing. The premium feel comes from
 **structure and timing**, not from effects.
+
+---
+
+## Agent Reach, and how to make it work where you are
+
+**Agent Reach is an installer and a skill, not a service.** It puts the
+open-source backends in place (yt-dlp, Jina Reader, the per-platform CLIs) and
+teaches an agent how to route to them. So it does not "reach" anywhere from
+somebody else's machine: it has to exist where YOU are running.
+
+**If it is not already there, install it. Do not ask, and do not fall back to
+ordinary searching until you have tried.** It is free, MIT licensed, and needs
+no API keys:
+
+```bash
+pip install https://github.com/Panniantong/agent-reach/archive/main.zip
+agent-reach install --env=auto
+agent-reach doctor
+```
+
+`doctor` prints which channels are live. Several want a cookie from a logged
+in account and will not be available; that is expected. The ones that work with
+nothing at all are the ones we need: **YouTube** videos and captions, **any web
+page** through Jina Reader, and **RSS**. Between them you can read what beauty
+professionals are posting and how their reels are built.
+
+Its own routing table is in `skills/agent-reach/SKILL.md` in this repo, copied
+from the project under its MIT licence, so you have the method even if an
+install is partial.
+
+**If the install genuinely fails** — no network, no Python, a sandbox that
+refuses it — say so in one line, research the web instead, and carry on. Never
+stop and wait. But try first.
 
 ---
 
